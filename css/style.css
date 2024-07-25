@@ -1,0 +1,361 @@
+/* estilo header*/
+header {
+    background-color: rgb(250, 231, 217);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+header nav a {
+    color: black;
+    background-color: #f8f7f7;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    border-radius: 15%;
+    font-weight: 500;
+}
+
+header nav a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+
+/*estilo body*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+main {
+    flex: 1;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+h1 {
+    color: black;
+    font-size:larger;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+h2 {
+    color: black;
+    font-size: medium;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/*estilo footer*/
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(250, 231, 217);
+    border-top: 1px solid black;
+    margin-top: auto;
+}
+
+.menu-footer {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-footer a {
+    color: black;
+    display: flex;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 6px;
+
+}
+
+.centro img {
+    border-radius: 15px;
+    margin: 10px;
+
+}
+
+.menu-footer a:hover {
+    color: black;
+    background-color: yellow;
+}
+
+.centro img:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+/* estilo index*/
+
+.carouselindex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+
+
+}
+
+.imagencarousel {
+    width: 500px;
+    height: 500px;
+    object-fit: scale-down;
+    transition: opacity 0.5s ease;
+
+}
+
+
+/* estilo staff*/
+.staffnombres{
+    text-decoration: underline
+}
+.containerjuana {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.textojuana {
+    color: black;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    flex: 1;
+}
+
+.imgjuana {
+
+    margin-left: 50px;
+    margin-right: 30px;
+    border: 1px solid black;
+}
+
+.containerbrenda {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.textobrenda {
+    color: black;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    flex: 1;
+}
+
+.imgbrenda {
+    margin-left: 50px;
+    margin-right: 30px;
+    border: 1px solid black;
+
+}
+
+.containerromina {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.textoromina {
+    color: black;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    flex: 1;
+}
+
+.imgromina {
+    margin-left: 50px;
+    margin-right: 30px;
+    border: 1px solid black;
+}
+
+.imgjuana:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.imgbrenda:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.imgromina:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+/* estilo inscribite*/
+
+
+/* estilo equipos*/
+
+.intro-equipos {
+    color: black;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+
+.container-cadi {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.texto-cadi {
+    color: black;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    flex: 1;
+
+}
+
+.imagen-cadi {
+    margin-left: 50px;
+    margin-right: 30px;
+    border: 1px solid black;
+
+}
+
+.container-refo {
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-refo {
+    color: black;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    flex: 1;
+}
+
+.imagen-refo {
+    margin-left: 50px;
+    margin-right: 30px;
+    border: 1px solid black;
+
+}
+
+.container-mat {
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-mat {
+    color: black;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    flex: 1;
+}
+
+.imagen-mat {
+    margin-left: 50px;
+    margin-right: 30px;
+    border: 1px solid black;
+
+}
+
+.container-high {
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-high {
+    color: black;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    flex: 1;
+}
+
+.imagen-high {
+    margin-left: 50px;
+    margin-right: 30px;
+    border: 1px solid black;
+
+}
+
+.container-wunda {
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-wunda {
+    color: black;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    flex: 1;
+}
+
+.imagen-wunda {
+    margin-left: 50px;
+    margin-right: 30px;
+    border: 1px solid black;
+
+}
+
+.container-barrel {
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-barrel {
+    color: black;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    flex: 1;
+}
+
+.imagen-barrel {
+    margin-left: 50px;
+    margin-right: 30px;
+    border: 1px solid black;
+
+}
+.imagen-cadi:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+.imagen-refo:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+.imagen-mat:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+.imagen-high:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+.imagen-wunda:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+.imagen-barrel:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+/* estilo el metodo*/
