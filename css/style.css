@@ -28,7 +28,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    
+
 }
 
 main {
@@ -39,7 +39,7 @@ main {
 
 h1 {
     color: black;
-    font-size:x-large;
+    font-size: x-large;
     text-align: left;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -104,16 +104,15 @@ p {
 /* estilo index*/
 
 .carouselindex {
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
-
 
 }
 
 .imagencarousel {
-   max-width: 400px;
+    max-width: 400px;
     max-height: 600px;
     object-fit: scale-down;
     transition: opacity 0.5s ease;
@@ -121,10 +120,13 @@ p {
 }
 
 
+
+
 /* estilo staff*/
-.staffnombres{
+.staffnombres {
     text-decoration: underline
 }
+
 .containerjuana {
     display: flex;
     align-items: flex-start;
@@ -203,32 +205,35 @@ p {
 }
 
 /* estilo inscribite*/
-.Contactanos{
+.Contactanos {
     margin-top: 50px;
 }
 
-.col-12{
+.col-12 {
     margin-top: 30px;
 }
 
-.avisodeinscripción{
+.avisodeinscripción {
     color: black;
     font-size: medium;
     font-family: 'Roboto', sans-serif;
     flex: 1;
 }
-.avisodeinscripción:hover{
+
+.avisodeinscripción:hover {
     background-color: bisque;
     color: black;
     transform: scale(1.1);
     opacity: 0.8;
 }
+
 /* estilo equipos*/
-.nombresequipos{
+.nombresequipos {
     font-size: larger;
     text-decoration: underline;
     font-weight: 500;
 }
+
 .intro-equipos {
     color: black;
     font-size: medium;
@@ -240,7 +245,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-        
+
 }
 
 .item {
@@ -262,8 +267,8 @@ p {
     margin-right: 30px;
     margin-top: 50px;
     border: 1px solid black;
-    
-    }
+
+}
 
 .container-refo {
     display: flex;
@@ -364,42 +369,51 @@ p {
     border: 1px solid black;
 
 }
-.imagen-cadi:hover{
+
+.imagen-cadi:hover {
     transform: scale(1.1);
     opacity: 0.8;
 }
-.imagen-refo:hover{
+
+.imagen-refo:hover {
     transform: scale(1.1);
     opacity: 0.8;
 }
-.imagen-mat:hover{
+
+.imagen-mat:hover {
     transform: scale(1.1);
     opacity: 0.8;
 }
-.imagen-high:hover{
+
+.imagen-high:hover {
     transform: scale(1.1);
     opacity: 0.8;
 }
-.imagen-wunda:hover{
+
+.imagen-wunda:hover {
     transform: scale(1.1);
     opacity: 0.8;
 }
-.imagen-barrel:hover{
+
+.imagen-barrel:hover {
     transform: scale(1.1);
     opacity: 0.8;
 }
+
 /* estilo el metodo*/
 
-.container-metodo{
+.container-metodo {
     display: flex;
     align-items: center;
-    
+
 }
-.container-metodo p{
+
+.container-metodo p {
     flex: 1;
     margin-right: 100px;
 }
-.carousel-inner{
+
+.carousel-inner {
     flex: 2;
     max-width: 300px;
     max-height: 500px;
