@@ -389,3 +389,18 @@ p {
     opacity: 0.8;
 }
 /* estilo el metodo*/
+
+.container-metodo{
+    display: flex;
+    align-items: center;
+    
+}
+.container-metodo p{
+    flex: 1;
+    margin-right: 100px;
+}
+.carousel-inner{
+    flex: 2;
+    max-width: 300px;
+    max-height: 500px;
+}
