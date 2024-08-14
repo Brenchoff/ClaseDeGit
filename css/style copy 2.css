@@ -1,3 +1,4 @@
+
 /* estilo header*/
 header {
     background-color: rgb(250, 231, 217);
@@ -19,6 +20,14 @@ header nav a {
     transition: 1s;
 }
 
+.animate__headShake{
+    display: inline-block;
+margin: 0 0.5rem;
+animation: headShake; /* referring directly to the animation's @keyframe declaration */
+animation-duration: 1s; /* don't forget to set a duration! */
+} 
+
+
 header nav a:hover {
     background-color: rgb(218, 185, 97);
     color: black;
@@ -29,10 +38,7 @@ header nav a:hover {
 body {
     display: flex;
     flex-direction: column;
-    max-width: 90vw;
-    margin: 0 auto;
-    padding: 0; 
-    box-sizing: border-box;
+    min-height: 100vh;
 
 }
 
@@ -64,6 +70,7 @@ p {
 
 }
 
+
 /*estilo footer*/
 .footer {
     display: flex;
@@ -88,12 +95,17 @@ p {
     font-family: 'Roboto', sans-serif;
     padding: 6px;
     transition: 1s;
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: lightSpeedOutRight; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
 
-}
 
 .centro img {
     border-radius: 15px;
     margin: 10px;
+   
 
 }
 
@@ -122,6 +134,7 @@ p {
   max-height: 600px;
   object-fit: scale-down;
   transition: opacity 0.5s ease;
+  margin-bottom: 30px;
 
 }
 

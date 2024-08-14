@@ -1,168 +1,204 @@
-
-/* estilo header*/
-header {
-    background-color: rgb(250, 231, 217);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-bottom: 1px solid gray;
-    
-}
-
+@charset "UTF-8";
 header nav a {
-    color: black;
-    background-color: #f8f7f7;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    padding: 5px;
-    border-radius: 15%;
-    font-weight: 500;
-    transition: 1s;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
 }
 
-.animate__headShake{
-    display: inline-block;
-margin: 0 0.5rem;
-animation: headShake; /* referring directly to the animation's @keyframe declaration */
-animation-duration: 1s; /* don't forget to set a duration! */
-} 
-
-
-header nav a:hover {
-    background-color: rgb(218, 185, 97);
-    color: black;
+body main h1 {
+  font-size: x-large;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+body main h1 h2 {
+  font-size: medium;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+}
+body main h1 p {
+  font-family: "Roboto", sans-serif;
+}
+body main .nombresequipos {
+  font-size: larger;
+  text-decoration: underline;
+  font-weight: 500;
+}
+body main .intro-equipos {
+  color: black;
+  font-size: medium;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 30px;
+}
+body main .container-metodo {
+  font-family: "Roboto", sans-serif;
 }
 
-
-/*estilo body*/
-body {
-    display: flex;
-    flex-direction: column;
-    max-width: 90vw;
-    margin: 0 auto;
-    padding: 0; 
-    box-sizing: border-box;
-
+footer .menu-footer a {
+  color: black;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
 }
-
-main {
-    flex: 1;
-    margin-left: 200px;
-    margin-right: 200px;
-}
-
-h1 {
-    color: black;
-    font-size: x-large;
-    text-align: left;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    margin-bottom: 30px;
-    margin-top: 10px;
-}
-
-h2 {
-    color: black;
-    font-size: medium;
-    text-align: left;
-    font-family: 'Roboto', sans-serif;
-}
-
-p {
-    font-family: 'Roboto', sans-serif;
-
-}
-
-/*estilo footer*/
-.footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: rgb(250, 231, 217);
-    border-top: 1px solid black;
-    margin-top: auto;
-}
-
-.menu-footer {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.menu-footer a {
-    color: black;
-    display: flex;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    padding: 6px;
-    transition: 1s;
-
-}
-
-.centro img {
-    border-radius: 15px;
-    margin: 10px;
-   
-
-}
-
-.menu-footer a:hover {
-    color: black;
-    background-color: rgb(218, 185, 97);
-}
-
-.centro img:hover {
-    transform: scale(1.1);
-    opacity: 0.8;
-}
-
-/* estilo index*/
 
 .carouselindex {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.imagencarousel {
+.carouselindex .imagencarousel {
   max-width: 400px;
   max-height: 600px;
   object-fit: scale-down;
   transition: opacity 0.5s ease;
-
 }
 
-
-
-
-/* estilo staff*/
-.staffnombres {
-    text-decoration: underline
+.nombresequipos {
+  font-size: larger;
+  text-decoration: underline;
+  font-weight: 500;
 }
 
-.containerjuana {
-    display: flex;
-    align-items: flex-start;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    flex-wrap: wrap
+header {
+  background-color: rgb(250, 231, 217);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+header nav a {
+  background-color: #f8f7f7;
+  padding: 5px;
+  border-radius: 15%;
+  font-weight: 500;
+  transition: 1s;
 }
 
-.textojuana {
-    color: black;
-    font-size: medium;
-    font-family: 'Roboto', sans-serif;
-    flex: 1;
+body {
+  display: flex;
+  flex-direction: column;
+  max-width: 90vw;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+body main {
+  flex: 1;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+body main h1 {
+  color: black;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+body main h1 h2 {
+  color: black;
+}
+
+.Contactanos {
+  margin-top: 50px;
+}
+
+.col-12 {
+  margin-top: 30px;
+}
+
+.avisodeinscripción {
+  color: black;
+  font-size: medium;
+  font-family: "Roboto", sans-serif;
+  flex: 1;
+}
+
+.avisodeinscripción:hover {
+  background-color: bisque;
+  color: black;
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.container-metodo {
+  display: flex;
+  align-items: center;
+}
+
+.container-metodo p {
+  flex: 1;
+  margin-right: 100px;
+}
+
+.carousel-inner {
+  flex: 2;
+  max-width: 300px;
+  max-height: 500px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(250, 231, 217);
+  border-top: 1px solid black;
+  margin-top: auto;
+}
+footer .menu-footer {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+footer .menu-footer .menu-footer a {
+  display: flex;
+  transition: 1s;
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: lightSpeedOutRight;
+  animation-duration: 2s;
+}
+footer .menu-footer .menu-footer a:hover {
+  color: black;
+  background-color: rgb(218, 185, 97);
+}
+footer .menu-footer .centro {
+  border-radius: 15px;
+  margin: 10px;
+}
+footer .menu-footer .centro .centro img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
 }
 
 .imgjuana {
+  margin-left: 50px;
+  margin-right: 30px;
+  border: 1px solid black;
+}
 
-    margin-left: 50px;
-    margin-right: 30px;
-    border: 1px solid black;
+.imgbrenda {
+  margin-left: 50px;
+  margin-right: 30px;
+  border: 1px solid black;
+}
+
+.imgromina {
+  margin-left: 50px;
+  margin-right: 30px;
+  border: 1px solid black;
+}
+
+.containerjuana {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .containerbrenda {
@@ -170,21 +206,6 @@ p {
   align-items: flex-start;
   margin-top: 40px;
   margin-bottom: 40px;
-  flex-wrap: wrap
-}
-
-.textobrenda {
-    color: black;
-    font-size: medium;
-    font-family: 'Roboto', sans-serif;
-    flex: 1;
-}
-
-.imgbrenda {
-    margin-left: 50px;
-    margin-right: 30px;
-    border: 1px solid black;
-
 }
 
 .containerromina {
@@ -192,248 +213,192 @@ p {
   align-items: flex-start;
   margin-top: 40px;
   margin-bottom: 40px;
-  flex-wrap: wrap
+}
+
+.textojuana {
+  color: black;
+  font-size: medium;
+  font-family: "Roboto", sans-serif;
+  flex: 1;
+}
+
+.textobrenda {
+  color: black;
+  font-size: medium;
+  font-family: "Roboto", sans-serif;
+  flex: 1;
 }
 
 .textoromina {
-    color: black;
-    font-size: medium;
-    font-family: 'Roboto', sans-serif;
-    flex: 1;
-}
-
-.imgromina {
-    margin-left: 50px;
-    margin-right: 30px;
-    border: 1px solid black;
+  color: black;
+  font-size: medium;
+  font-family: "Roboto", sans-serif;
+  flex: 1;
 }
 
 .imgjuana:hover {
-    transform: scale(1.1);
-    opacity: 0.8;
+  transform: scale(1.1);
+  opacity: 0.8;
 }
 
 .imgbrenda:hover {
-    transform: scale(1.1);
-    opacity: 0.8;
+  transform: scale(1.1);
+  opacity: 0.8;
 }
 
 .imgromina:hover {
-    transform: scale(1.1);
-    opacity: 0.8;
-}
-
-/* estilo inscribite*/
-.Contactanos {
-    margin-top: 50px;
-}
-
-.col-12 {
-    margin-top: 30px;
-}
-
-.avisodeinscripción {
-    color: black;
-    font-size: medium;
-    font-family: 'Roboto', sans-serif;
-    flex: 1;
-}
-
-.avisodeinscripción:hover {
-    background-color: bisque;
-    color: black;
-    transform: scale(1.1);
-    opacity: 0.8;
-}
-
-/* estilo equipos*/
-.nombresequipos {
-    font-size: larger;
-    text-decoration: underline;
-    font-weight: 500;
-}
-
-.intro-equipos {
-    color: black;
-    font-size: medium;
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 30px;
+  transform: scale(1.1);
+  opacity: 0.8;
 }
 
 .container-cadi {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-}
-
-.item {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 30px;
-}
-
-.texto-cadi {
-    color: black;
-    font-size: medium;
-    font-family: 'Roboto', sans-serif;
-    flex: 1;
-
-}
-
-.imagen-cadi {
-    margin-left: 50px;
-    margin-right: 30px;
-    margin-top: 50px;
-    border: 1px solid black;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .container-refo {
-    display: flex;
-    flex-direction: column;
-}
-
-.texto-refo {
-    color: black;
-    font-size: medium;
-    font-family: 'Roboto', sans-serif;
-    flex: 1;
-}
-
-.imagen-refo {
-    margin-left: 50px;
-    margin-right: 30px;
-    margin-top: 50px;
-    border: 1px solid black;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .container-mat {
-    display: flex;
-    flex-direction: column;
-}
-
-.texto-mat {
-    color: black;
-    font-size: medium;
-    font-family: 'Roboto', sans-serif;
-    flex: 1;
-}
-
-.imagen-mat {
-    margin-left: 50px;
-    margin-right: 30px;
-    margin-top: 50px;
-    border: 1px solid black;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .container-high {
-    display: flex;
-    flex-direction: column;
-}
-
-.texto-high {
-    color: black;
-    font-size: medium;
-    font-family: 'Roboto', sans-serif;
-    flex: 1;
-}
-
-.imagen-high {
-    margin-left: 50px;
-    margin-right: 30px;
-    margin-top: 50px;
-    border: 1px solid black;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .container-wunda {
-    display: flex;
-    flex-direction: column;
-}
-
-.texto-wunda {
-    color: black;
-    font-size: medium;
-    font-family: 'Roboto', sans-serif;
-    flex: 1;
-}
-
-.imagen-wunda {
-    margin-left: 50px;
-    margin-right: 30px;
-    margin-top: 50px;
-    border: 1px solid black;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .container-barrel {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.texto-cadi {
+  color: black;
+  font-size: medium;
+  font-family: "Roboto", sans-serif;
+  flex: 1;
+}
+
+.texto-refo {
+  color: black;
+  font-size: medium;
+  font-family: "Roboto", sans-serif;
+  flex: 1;
+}
+
+.texto-mat {
+  color: black;
+  font-size: medium;
+  font-family: "Roboto", sans-serif;
+  flex: 1;
+}
+
+.texto-high {
+  color: black;
+  font-size: medium;
+  font-family: "Roboto", sans-serif;
+  flex: 1;
+}
+
+.texto-wunda {
+  color: black;
+  font-size: medium;
+  font-family: "Roboto", sans-serif;
+  flex: 1;
 }
 
 .texto-barrel {
-    color: black;
-    font-size: medium;
-    font-family: 'Roboto', sans-serif;
-    flex: 1;
+  color: black;
+  font-size: medium;
+  font-family: "Roboto", sans-serif;
+  flex: 1;
+}
+
+.imagen-cadi {
+  margin-left: 50px;
+  margin-right: 30px;
+  margin-top: 50px;
+  border: 1px solid black;
+}
+
+.imagen-refo {
+  margin-left: 50px;
+  margin-right: 30px;
+  margin-top: 50px;
+  border: 1px solid black;
+}
+
+.imagen-mat {
+  margin-left: 50px;
+  margin-right: 30px;
+  margin-top: 50px;
+  border: 1px solid black;
+}
+
+.imagen-high {
+  margin-left: 50px;
+  margin-right: 30px;
+  margin-top: 50px;
+  border: 1px solid black;
+}
+
+.imagen-wunda {
+  margin-left: 50px;
+  margin-right: 30px;
+  margin-top: 50px;
+  border: 1px solid black;
 }
 
 .imagen-barrel {
-    margin-left: 50px;
-    margin-right: 30px;
-    margin-top: 50px;
-    border: 1px solid black;
-
+  margin-left: 50px;
+  margin-right: 30px;
+  margin-top: 50px;
+  border: 1px solid black;
 }
 
 .imagen-cadi:hover {
-    transform: scale(1.1);
-    opacity: 0.8;
+  transform: scale(1.1);
+  opacity: 0.8;
 }
 
 .imagen-refo:hover {
-    transform: scale(1.1);
-    opacity: 0.8;
+  transform: scale(1.1);
+  opacity: 0.8;
 }
 
 .imagen-mat:hover {
-    transform: scale(1.1);
-    opacity: 0.8;
+  transform: scale(1.1);
+  opacity: 0.8;
 }
 
 .imagen-high:hover {
-    transform: scale(1.1);
-    opacity: 0.8;
+  transform: scale(1.1);
+  opacity: 0.8;
 }
 
 .imagen-wunda:hover {
-    transform: scale(1.1);
-    opacity: 0.8;
+  transform: scale(1.1);
+  opacity: 0.8;
 }
 
 .imagen-barrel:hover {
-    transform: scale(1.1);
-    opacity: 0.8;
+  transform: scale(1.1);
+  opacity: 0.8;
 }
 
-/* estilo el metodo*/
-
-.container-metodo {
-    display: flex;
-    align-items: center;
-
-}
-
-.container-metodo p {
-    flex: 1;
-    margin-right: 100px;
-}
-
-.carousel-inner {
-    flex: 2;
-    max-width: 300px;
-    max-height: 500px;
-}
+/*# sourceMappingURL=style.css.map */

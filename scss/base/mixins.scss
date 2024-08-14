@@ -1,0 +1,163 @@
+@mixin container-img-staff {
+    margin-left: 50px;
+    margin-right: 30px;
+    border: 1px solid black;
+  }
+
+  .imgjuana{
+    @include container-img-staff
+  }
+
+  .imgbrenda{
+    @include container-img-staff
+  }
+
+  .imgromina{
+    @include container-img-staff
+  }
+
+  @mixin container-profes{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .containerjuana{
+    @include container-profes
+  }
+  .containerbrenda{
+    @include container-profes
+  }
+  .containerromina{
+    @include container-profes
+  }
+
+  @mixin texto-profes{
+    color: black;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    flex: 1;
+  }
+  .textojuana{
+    @include texto-profes
+  }
+  .textobrenda {
+    @include texto-profes
+  }
+  .textoromina{
+    @include texto-profes
+  }
+
+  @mixin hover-profes{
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+
+  .imgjuana:hover{
+    @include hover-profes
+  }
+  .imgbrenda:hover{
+    @include hover-profes
+  }
+  .imgromina:hover{
+    @include hover-profes
+  }
+
+  @mixin container-equipos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container-cadi{
+    @include container-equipos
+  }
+  .container-refo{
+    @include container-equipos
+  }
+  .container-mat{
+    @include container-equipos
+  }
+  .container-high{
+    @include container-equipos
+  }
+  .container-wunda{
+    @include container-equipos
+  }
+  .container-barrel{
+    @include container-equipos
+  }
+
+  @mixin texto-equipos{
+    color: black;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    flex: 1;
+  }
+
+  .texto-cadi{
+    @include texto-equipos
+  }
+  .texto-refo{
+    @include texto-equipos
+  }
+  .texto-mat{
+    @include texto-equipos
+  }
+  .texto-high{
+    @include texto-equipos
+  }
+  .texto-wunda{
+    @include texto-equipos
+  }
+  .texto-barrel{
+    @include texto-equipos
+  }
+
+  @mixin imagen-equipos{
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-top: 50px;
+    border: 1px solid black;
+  }
+  .imagen-cadi{
+    @include imagen-equipos
+  }
+  .imagen-refo{
+    @include imagen-equipos
+  }
+  .imagen-mat{
+    @include imagen-equipos
+  }
+  .imagen-high{
+    @include imagen-equipos
+  }
+  .imagen-wunda{
+    @include imagen-equipos
+  }
+  .imagen-barrel{
+    @include imagen-equipos
+  }
+@mixin equipos-hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.imagen-cadi:hover{
+    @include equipos-hover
+}
+.imagen-refo:hover{
+    @include equipos-hover
+}
+.imagen-mat:hover{
+    @include equipos-hover
+}
+.imagen-high:hover{
+    @include equipos-hover
+}
+.imagen-wunda:hover{
+    @include equipos-hover
+}
+.imagen-barrel:hover{
+    @include equipos-hover
+}

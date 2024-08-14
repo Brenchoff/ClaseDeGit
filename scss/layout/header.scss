@@ -1,0 +1,17 @@
+header {
+    background-color: rgb(250, 231, 217);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid gray;
+
+    nav {
+        a {
+            background-color: #f8f7f7;
+            padding: 5px;
+            border-radius: 15%;
+            font-weight: 500;
+            transition: 1s;
+        }
+    }
+}
