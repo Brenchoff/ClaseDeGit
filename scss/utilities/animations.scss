@@ -1,0 +1,27 @@
+.centro img:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.avisodeinscripción:hover {
+    background-color: bisque;
+    color: black;
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.animate__headShake{
+    display: inline-block;
+margin: 0 0.5rem;
+
+animation: bounce; 
+animation-duration: 1s;
+}
+
+   .animate__lightSpeedOutRight{
+    display: inline-block;
+margin: 0 0.5rem;
+
+animation: lightSpeedOutRight; 
+animation-duration: 1s;
+   }

@@ -61,18 +61,18 @@ footer .menu-footer a {
 }
 
 header {
-  background-color: rgb(250, 231, 217);
+  background: linear-gradient(to right, #f0c3b7, #feb47b);
   display: flex;
   justify-content: space-around;
   align-items: center;
   border-bottom: 1px solid gray;
+  height: 150px;
 }
 header nav a {
   background-color: #f8f7f7;
   padding: 5px;
   border-radius: 15%;
   font-weight: 500;
-  transition: 1s;
 }
 
 body {
@@ -112,13 +112,6 @@ body main h1 h2 {
   flex: 1;
 }
 
-.avisodeinscripción:hover {
-  background-color: bisque;
-  color: black;
-  transform: scale(1.1);
-  opacity: 0.8;
-}
-
 .item {
   display: flex;
   align-items: flex-start;
@@ -141,12 +134,18 @@ body main h1 h2 {
   max-height: 500px;
 }
 
+.staffnombres {
+  font-size: larger;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: rgb(250, 231, 217);
+  background: linear-gradient(to right, #f0c3b7, #feb47b);
   border-top: 1px solid black;
   margin-top: auto;
 }
@@ -170,10 +169,6 @@ footer .menu-footer .menu-footer a:hover {
 footer .menu-footer .centro {
   border-radius: 15px;
   margin: 10px;
-}
-footer .menu-footer .centro .centro img:hover {
-  transform: scale(1.1);
-  opacity: 0.8;
 }
 
 .imgjuana {
@@ -399,6 +394,32 @@ footer .menu-footer .centro .centro img:hover {
 .imagen-barrel:hover {
   transform: scale(1.1);
   opacity: 0.8;
+}
+
+.centro img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.avisodeinscripción:hover {
+  background-color: bisque;
+  color: black;
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.animate__headShake {
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: bounce;
+  animation-duration: 1s;
+}
+
+.animate__lightSpeedOutRight {
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: lightSpeedOutRight;
+  animation-duration: 1s;
 }
 
 /*# sourceMappingURL=style.css.map */

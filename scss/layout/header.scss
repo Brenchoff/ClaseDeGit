@@ -1,9 +1,14 @@
+
+$gradient: linear-gradient(to right, #f0c3b7, #feb47b);
+
 header {
-    background-color: rgb(250, 231, 217);
+    background: $gradient;
     display: flex;
     justify-content: space-around;
     align-items: center;
     border-bottom: 1px solid gray;
+    height: 150px;
+
 
     nav {
         a {
@@ -11,7 +16,6 @@ header {
             padding: 5px;
             border-radius: 15%;
             font-weight: 500;
-            transition: 1s;
         }
     }
 }

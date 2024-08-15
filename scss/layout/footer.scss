@@ -1,9 +1,10 @@
+$gradient: linear-gradient(to right, #f0c3b7, #feb47b);
 footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: rgb(250, 231, 217);
+    background: $gradient;
     border-top: 1px solid black;
     margin-top: auto;
 
@@ -20,19 +21,17 @@ footer {
             animation: lightSpeedOutRight;
             animation-duration: 2s;
         }
+
         .menu-footer a:hover {
             color: black;
             background-color: rgb(218, 185, 97);
         }
+
         .centro {
             border-radius: 15px;
             margin: 10px;
-            
 
-            .centro img:hover {
-                transform: scale(1.1);
-                opacity: 0.8;
-            }
+
         }
     }
 }
