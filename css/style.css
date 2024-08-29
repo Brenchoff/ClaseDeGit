@@ -4,7 +4,6 @@ header nav a {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
 }
-
 body main h1 {
   font-size: x-large;
   text-align: left;
@@ -31,6 +30,7 @@ body main .intro-equipos {
   margin-bottom: 30px;
 }
 body main .container-metodo {
+  
   font-family: "Roboto", sans-serif;
 }
 
@@ -75,18 +75,16 @@ header nav a {
   font-weight: 500;
 }
 
+
 body {
   display: flex;
   flex-direction: column;
-  max-width: 90vw;
-  margin: 0 auto;
-  padding: 0;
+  
   box-sizing: border-box;
 }
 body main {
-  flex: 1;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 body main h1 {
   color: black;
@@ -154,7 +152,7 @@ footer .menu-footer {
   padding: 0;
   margin: 0;
 }
-footer .menu-footer .menu-footer a {
+footer .menu-footer a {
   display: flex;
   transition: 1s;
   display: inline-block;
@@ -162,9 +160,9 @@ footer .menu-footer .menu-footer a {
   animation: lightSpeedOutRight;
   animation-duration: 2s;
 }
-footer .menu-footer .menu-footer a:hover {
+footer .menu-footer a:hover {
   color: black;
-  background-color: rgb(218, 185, 97);
+  background-color: rgb(236, 252, 17);
 }
 footer .menu-footer .centro {
   border-radius: 15px;

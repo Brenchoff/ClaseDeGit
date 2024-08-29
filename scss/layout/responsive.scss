@@ -1,0 +1,53 @@
+.containermain{
+    /* Computadoras de escritorio grandes */
+    @media (min-width: 1200px) {
+        body {
+            background-color: #e0e0e0;
+            font-size: 18px;
+        }
+
+        .container {
+            width: 70%;
+            padding: 30px;
+        }
+    }
+
+    /* Computadoras de escritorio medianas */
+    @media (min-width: 768px) and (max-width: 1199px) {
+        body {
+            background-color: #c0c0c0;
+            font-size: 16px;
+        }
+
+        .container {
+            width: 80%;
+            padding: 20px;
+        }
+    }
+
+    /* Celulares grandes */
+    @media (min-width: 576px) and (max-width: 767px) {
+        body {
+            background-color: #a0a0a0;
+            font-size: 14px;
+        }
+
+        .container {
+            width: 90%;
+            padding: 15px;
+        }
+    }
+
+    /* Celulares pequeños */
+    @media (max-width: 575px) {
+        body {
+            background-color: #808080;
+            font-size: 12px;
+        }
+
+        .container {
+            width: 100%;
+            padding: 10px;
+        }
+    }
+}

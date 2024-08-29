@@ -1,69 +1,46 @@
-body {
-    display: flex;
-    flex-direction: column;
-    max-width: 90vw;
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
+ 
 
-    main {
-        flex: 1;
-        margin-left: 200px;
-        margin-right: 200px;
+ .Contactanos {
+     margin-top: 50px;
+ }
 
-        h1 {
-            color: black;
-            margin-bottom: 30px;
-            margin-top: 10px;
+ .col-12 {
+     margin-top: 30px;
+ }
 
-            h2 {
-                color: black;
-            }
-
-        }
-    }
-}
-
-.Contactanos {
-    margin-top: 50px;
-}
-
-.col-12 {
-    margin-top: 30px;
-}
-
-.avisodeinscripción {
-    color: black;
-    font-size: medium;
-    font-family: 'Roboto', sans-serif;
-    flex: 1;
-}
+ .avisodeinscripción {
+     color: black;
+     font-size: medium;
+     font-family: 'Roboto', sans-serif;
+     flex: 1;
+ }
 
 
-.item {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 30px;
-}
-.container-metodo {
-    display: flex;
-    align-items: center;
+ .item {
+     display: flex;
+     align-items: flex-start;
+     margin-bottom: 30px;
+ }
 
-}
+ .container-metodo {
+     display: flex;
+     align-items: center;
 
-.container-metodo p {
-    flex: 1;
-    margin-right: 100px;
-}
+ }
 
-.carousel-inner {
-    flex: 2;
-    max-width: 300px;
-    max-height: 500px;
-}
+ .container-metodo p {
+     flex: 1;
+     margin-right: 100px;
+ }
 
-.staffnombres{
-    font-size: larger;
-    text-decoration: underline;
-    font-weight: 500;
-      }
+ .carousel-inner {
+     flex: 2;
+     max-width: 300px;
+     max-height: 500px;
+ }
+
+ .staffnombres {
+     font-size: larger;
+     text-decoration: underline;
+     font-weight: 500;
+ }
